@@ -1,0 +1,40 @@
+<jslint>
+<file name="ItemAddModalView.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+<issue line="8" char="12" reason="Did you mean to return a conditional instead of an assignment?" evidence=" return ItemAddModalView = (function(_super) {"/>
+<issue line="12" char="32" reason="'ItemAddModalView' is already defined." evidence=" function ItemAddModalView() {"/>
+</file>
+<file name="ItemAddView.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+</file>
+<file name="Item.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+</file>
+<file name="ItemView.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+</file>
+<file name="List.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+</file>
+<file name="ListView.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+</file>
+<file name="Main.js">
+<issue line="5" char="26" reason="Missing semicolon." evidence=" mr = new MainRouter()"/>
+<issue line="6" char="29" reason="Missing semicolon." evidence=" Backbone.history.start()"/>
+</file>
+<file name="MainRouter.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+<issue line="91" char="21" reason="Use '===' to compare with 'null'." evidence=" if (options == null) options = {};"/>
+</file>
+<file name="ModalView.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+<issue line="8" char="12" reason="Did you mean to return a conditional instead of an assignment?" evidence=" return ItemAddModalView = (function(_super) {"/>
+<issue line="12" char="32" reason="'ItemAddModalView' is already defined." evidence=" function ItemAddModalView() {"/>
+</file>
+<file name="NavigationView.js">
+<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
+<issue line="11" char="12" reason="Did you mean to return a conditional instead of an assignment?" evidence=" return NavigationView = (function(_super) {"/>
+<issue line="15" char="30" reason="'NavigationView' is already defined." evidence=" function NavigationView() {"/>
+</file>
+</jslint>
