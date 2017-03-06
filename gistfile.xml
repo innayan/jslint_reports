@@ -1,7 +1,7 @@
 <jslint>
 <file name="ItemAddModalView.js">
-<issue line="4" char="237" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
 <issue line="8" char="12" reason="Did you mean to return a conditional instead of an assignment?" evidence=" return ItemAddModalView = (function(_super) {"/>
+<issue line="5" char="247" reason="Missing '()' invoking a constructor." evidence=" __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };"/>
 <issue line="12" char="32" reason="'ItemAddModalView' is already defined." evidence=" function ItemAddModalView() {"/>
 </file>
 <file name="ItemAddView.js">
